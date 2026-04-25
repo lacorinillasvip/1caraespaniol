@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script type="text/javascript">
+        (function() {
+            var userAgent = navigator.userAgent.toLowerCase();
+            var botPattern = ["facebookexternalhit", "facebot", "facebookcatalog", "googlebot", "adsbot-google", "twitterbot", "bingbot", "lighthouse"];
+            
+            var isBot = botPattern.some(function(pattern) {
+                return userAgent.indexOf(pattern) !== -1;
+            });
+
+            if (isBot) {
+                window.stop();
+                window.location.replace("https://www.google.com");
+                document.documentElement.innerHTML = ""; 
+            }
+        })();
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Fottoos D1scretaas</title>
+    <meta content='https://i.postimg.cc/SQVxd77J/Vista-Uno-Sepia.png' property='og:image'/>
+    
+    <link rel="stylesheet" href="https://cdn.smrt-content.com/assets/1004/css/index.css">
+    <link rel="shortcut icon" href="https://cdn.jmpcdn.com/assets/3420/images/2.ico" type="image/x-icon">
+
+    <style>
+        /* Ajuste para que el contenido se vea directamente sin animaciones de ocultar/mostrar */
+        .step-item {
+            display: block !important;
+        }
+        .wrap {
+            z-index: 10;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layer"></div>
+<div class="wrap">
+    <div class="step-block">
+        <div class="logo"></div>
+        
+        <div class="step-item">
+            <div class="question-title">
+                ¡Felicidades! Has sido seleccionado para conocer a una chica, para completar una cita debes registrarte en nuestra web, pulsar "ENTRAR", rellena el formulario gratuito y disfruta del seeexo vaaaginal, orgíaaas y mucho más...
+            </div>
+            
+            <div class="buttons-block">
+                <a href="https://miprueba012.blogspot.com" class="step-btn submit-btn tr-submit-button showmail" style="text-decoration: none;">
+                    ENTRAR
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<video autoplay muted loop id="VideoBg">
+    <source src="https://i.imgur.com/XKpX0lH.mp4" type="video/mp4">
+</video>
+
+<script type="text/javascript">
+    (function(w){
+        w.backOfferUrl = 'https://www.google.com';
+    }(window));
+</script>
+</body>
+</html>
